@@ -1,0 +1,92 @@
+html {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 90%;
+  border-radius: 10px;
+}
+.card h1 {
+  margin: 20px 0;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.card div {
+  padding: 50px 60px;
+}
+.card div article {
+  margin: 30px 0;
+}
+.card div article p {
+  font-weight: 400;
+  line-height: 25px;
+}
+.card div button {
+  margin-top: 10px;
+  width: 60%;
+  padding: 15px;
+  letter-spacing: 1px;
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 50px;
+}
+.card div button:hover {
+  cursor: pointer;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: transparent;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+.card-sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0;
+}
+.card-sedan button {
+  color: hsl(31, 77%, 52%);
+}
+.card-suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.card-suv button {
+  color: hsl(184, 100%, 22%);
+}
+.card-luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+.card-luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  color: black;
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    flex-direction: row;
+    width: 65%;
+  }
+  .card-sedan {
+    border-radius: 10px 0 0 10px;
+  }
+  .card-luxury {
+    border-radius: 0 10px 10px 0;
+  }
+  .attribution {
+    width: 65%;
+  }
+}/*# sourceMappingURL=card.css.map */
